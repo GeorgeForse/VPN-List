@@ -10,10 +10,10 @@ Denying literal IP hosts will also mitigate/disable many VPNs using HTTPS/Port 4
 I have also blocked the entire ".ga" tld, but this is not necessary. Interestingly, the VPN servers using .ga *seem* to be hosted on legitimate looking websites, but these are completely generic sites with sometimes vague information on them claiming to be legitimate.
 
 # This list breaks:
--WindScribe
--Betternet
--X-VPN
--PrivateInternetAccess
--Many Chrome/Firefox VPN Plugins
--YouTube "Unblocker" plugins
--Etc.
+* WindScribe
+* Betternet
+* X-VPN
+* PrivateInternetAccess
+* Many Chrome/Firefox VPN Plugins
+* YouTube "Unblocker" plugins
+* Etc.
