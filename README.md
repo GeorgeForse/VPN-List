@@ -1,5 +1,5 @@
 # VPN-List
-A list of domains that popular VPNs use for authentication. Due to the nature of VPNs, it's best not to rely on DNS to block and instead use a proxy server such as SquidGuard on a firewall appliance.
+A list of domains that popular VPNs use for authentication and other communication. Due to the nature of VPNs, it's best not to rely on DNS to block and instead use a proxy server such as SquidGuard on a firewall appliance.
 
 This list is a sanitized dump of the blocklist I've been building at work to mitigate VPN usage. Blocking these hosts will prevent access to authentication for VPNs in most cases.
 
