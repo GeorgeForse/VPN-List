@@ -7,6 +7,11 @@ VPNs are quite difficult to block, so you can either use Layer 7 filtering to in
 
 Denying literal IP hosts will also mitigate/disable many VPNs using HTTPS/TCP 443 or HTTP/TCP 80. I'd also recommend blocking/disabling QUIC as any QUIC requests will bypass your proxy. You can disable QUIC by blocking UDP 80 & UDP 443 in your UTM/Firewall, and you can also set Group Policies or Google Admin Policies to disable this in Google Chrome.
 
+# Important Note for Educational Institutions:
+You must comply with local safeguarding laws set by your state or country. You cannot solely use this list as your only mitigation against VPN usage on your networks. You must use a compliant UTM, Web Proxy, Layer 7 Firewall or other safeguarding solution in addition to this list.
+
+You may also have some additional success in mitigating this risk by educating those dependent on you for safeguarding them. You can tackle this issue with technology, however, at the end of the day it is a behavioural issue which should be treated the same way as any other breach of conduct or policy. A two-pronged approach is best, I have found.
+
 # This list breaks:
 * WindScribe
 * Betternet
